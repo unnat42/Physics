@@ -2,7 +2,7 @@
 """
 Created on Sat Jan 25 23:05:53 2020
 
-@author: unnat
+@author: Unnat Antani
 """
 import matplotlib.pyplot as plt
 import time
