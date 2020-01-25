@@ -1,2 +1,2 @@
 # Physics
-Codes which visualise various consepts of physics
+Codes which visualise various concepts of physics
