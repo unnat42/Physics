@@ -9,68 +9,6 @@ import time
 import math
 
 
- 
-# xdata = []
-# ydata = []
- 
-# plt.show()
- 
-# axes = plt.gca()
-# axes.set_xlim(-500, 500)
-# axes.set_ylim(-500, 500)
-
-# line, = axes.plot(xdata, ydata, 'ro') #Scatter plot and not line plot
-
-
-#Throwing an object at an anlge 45 degrees and initial velocity as 10 m/s from a height of 200 m
-# pos_y = 0+200
-# pos_x = 0-50
-
-
-# for i in range(10):
-#     pos_x = pos_x + 10*math.cos(math.pi/4)*i
-#     pos_y =pos_y + 10*math.sin(math.pi/4)*i - 0.5*9.81*(i**2)
-#     xdata.append(pos_x)
-#     ydata.append(pos_y)
-#     line.set_xdata(xdata)
-#     line.set_ydata(ydata)
-#     plt.draw()
-#     plt.pause(1)
-#     time.sleep(0.1)
- 
-# # add this if you don't want the window to disappear at the end
-# plt.show()
-
-
-#Free fall simulation
-
-# pos_y = 0+200
-# pos_x = 0-50
-
-# i = 0
-# while True:
-    
-#     pos_y =pos_y - 0.5*9.81*(i**2)
-#     i = i + 0.1
-#     if pos_y <= 0:
-#         print(pos_y)
-#         break
-#     else:
-#         xdata.append(pos_x)
-#         ydata.append(pos_y)
-#         line.set_xdata(xdata)
-#         line.set_ydata(ydata)
-#         plt.draw()
-#         plt.pause(0.01)
-#         time.sleep(0.1)
-        
-    
-# plt.show()
-
-
-#2 Bodies attracting: Gravity
-
-
 xdata_1 = []
 xdata_2 = []
 
