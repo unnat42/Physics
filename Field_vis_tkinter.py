@@ -6,15 +6,6 @@ Created on Wed May 13 12:26:56 2020
 
 Field Visualiser
 """
-# -*- coding: utf-8 -*-
-"""
-Created on Fri May  1 21:52:11 2020
-
-@author: Unnat Antani
-
-Projectile motion
-"""
-
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 from matplotlib.figure import Figure
 import tkinter
