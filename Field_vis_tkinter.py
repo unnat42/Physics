@@ -114,13 +114,7 @@ class MyClass:
         self.canvas.draw()
            
             
-           
-            
-            
-            
-       
-
-
+     
 root = tkinter.Tk()
 root.title("Electic Field Visualiser")
 MyFrame = tkinter.Frame(root)
