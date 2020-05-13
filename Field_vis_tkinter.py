@@ -25,7 +25,8 @@ class MyClass:
         self.ax.set_xticks([])
         self.ax.set_xlim(-6,6)
         self.ax.set_ylim(-6,6)
-     
+        self.ax.plot([-2,2,0,0], [0,0,2,-2])
+        
         self.canvas = FigureCanvasTkAgg(self.fig, self.frame)
         self.canvas.draw()
         
@@ -87,7 +88,7 @@ class MyClass:
         self.ax.set_ylim(-6,6)
         self.ax.set_yticks([])
         self.ax.set_xticks([])
-        # self.ax.plot([-2,2,0,0], [0,0,2,-2], 'bo')
+       
         
         self.charges = [self.q1,self.q2,self.q3,self.q4]
         self.loc = [[-2,0],[2,0],[0,2],[0,-2]]
